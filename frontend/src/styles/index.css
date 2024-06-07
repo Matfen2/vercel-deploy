@@ -1,0 +1,73 @@
+.container form {
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.container form input {
+  font-size: 1.4em;
+}
+.container form .btn {
+  font-size: 1.4em;
+}
+.container .row {
+  margin: auto;
+  width: 1100px;
+  height: 540px;
+  overflow: auto;
+  border-radius: 5px;
+  justify-content: center;
+  border: 1px solid black;
+}
+.container .row .col-lg-4 .card .card-body {
+  justify-content: center;
+  display: flex;
+  -moz-column-gap: 60px;
+       column-gap: 60px;
+  align-items: center;
+  flex-direction: row;
+}
+.container .row .col-lg-4 .card .card-body .card-title, .container .row .col-lg-4 .card .card-body .card-text {
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+.container .row .col-lg-4 .card .card-body .btn-danger {
+  color: azure;
+  cursor: pointer;
+  font-size: 1.4em;
+  border-radius: 5px;
+  background-color: darkred;
+  transition: all 0.2ms ease;
+}
+.container .row .col-lg-4 .card .card-body .btn-danger:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px 4px #000000;
+}
+.container .row .col-lg-4 .card .card-body .btn-secondary {
+  color: azure;
+  cursor: pointer;
+  font-size: 1.4em;
+  border-radius: 5px;
+  background-color: rgb(9, 39, 206);
+  transition: all 0.2ms ease;
+}
+.container .row .col-lg-4 .card .card-body .btn-secondary:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px 4px #000000;
+}
+.container .modal .modal-content .close {
+  left: 21%;
+  bottom: 10%;
+  cursor: pointer;
+  font-size: 1.8em;
+  position: relative;
+  transform: translate(0%, 50%);
+  transition: all 0.2ms ease;
+}
+.container .modal .modal-content .close:hover {
+  font-size: 2.1em;
+  text-shadow: 0 0 5px #000000, 0 0 10px #000000, 5px 4px 14px rgba(206, 89, 55, 0);
+}
+.container .modal .modal-content form {
+  margin-top: 3px;
+}/*# sourceMappingURL=index.css.map */
